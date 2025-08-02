@@ -72,22 +72,20 @@ export default function HeroSection() {
           </div>
 
           {/* Stats */}
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-12">
-            <div className="glass p-4 rounded-lg">
-              <div className="text-2xl font-bold text-primary">3+</div>
-              <div className="text-sm text-muted-foreground font-mono">Years Experience</div>
-            </div>
-            <div className="glass p-4 rounded-lg">
-              <div className="text-2xl font-bold text-accent">50+</div>
-              <div className="text-sm text-muted-foreground font-mono">Projects Built</div>
-            </div>
-            <div className="glass p-4 rounded-lg">
-              <div className="text-2xl font-bold text-secondary">1.2k+</div>
-              <div className="text-sm text-muted-foreground font-mono">GitHub Stars</div>
-            </div>
-            <div className="glass p-4 rounded-lg">
-              <div className="text-2xl font-bold text-terminal-orange">500+</div>
-              <div className="text-sm text-muted-foreground font-mono">LeetCode Solved</div>
+          <div className="flex justify-center mb-12">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 w-full max-w-2xl">
+              <div className="glass p-4 rounded-lg flex flex-col items-center">
+                <div className="text-2xl font-bold text-accent">50+</div>
+                <div className="text-sm text-muted-foreground font-mono">Projects Built</div>
+              </div>
+              <div className="glass p-4 rounded-lg flex flex-col items-center">
+                <div className="text-2xl font-bold text-terminal-purple">5x</div>
+                <div className="text-sm text-muted-foreground font-mono">Hackathon Winner</div>
+              </div>
+              <div className="glass p-4 rounded-lg flex flex-col items-center">
+                <div className="text-2xl font-bold text-terminal-orange">200+</div>
+                <div className="text-sm text-muted-foreground font-mono">LeetCode Solved</div>
+              </div>
             </div>
           </div>
 

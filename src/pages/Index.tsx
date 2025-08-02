@@ -4,6 +4,7 @@ import HeroSection from '@/components/HeroSection';
 import ProjectsSection from '@/components/ProjectsSection';
 import ExperienceSection from '@/components/ExperienceSection';
 import SkillsSection from '@/components/SkillsSection';
+import ChatbotSection from '@/components/ChatbotSection';
 
 const Index = () => {
   useEffect(() => {
@@ -19,6 +20,7 @@ const Index = () => {
         <ProjectsSection />
         <ExperienceSection />
         <SkillsSection />
+        <ChatbotSection />
       </main>
       
       {/* Footer */}
